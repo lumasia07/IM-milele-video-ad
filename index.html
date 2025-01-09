@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IM milele video ad</title>
+    <title>Video Ad with CTA</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <video src="assets/RV_300_250.mp4" autoplay loop muted></video>
+    <div class="video-container">
+        <video id="adVideo" src="assets/RV_300_250.mp4" autoplay muted></video>
+        <div id="ctaPopup" class="cta-popup">
+            <p>Visit I&M Bank Milele for more information!</p>
+            <button onclick="window.location.href='www.imbankgroup.com/ke/im-milele-rewards/'">Learn More</button>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
